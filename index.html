@@ -1,0 +1,81 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Example Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fill nomargin" style="background-color: rgb(32, 32, 35);">
+    <div class="column fill">
+        <!--header-->
+        <header class="column noflex">
+            <div class="bold" style="color: white; margin: 20px; font-size: 30px;">
+                Example Page
+            </div>
+        </header>
+        <nav class="box row undraggable subaxis-center" style="margin: 5px; padding : 4px;">
+            <a
+                class="bold"
+                href="https://github.com/hve4638/css-widgetstyle"
+                style="margin: 0px 8px 0px 8px; color: rgb(59, 48, 59);"
+            ><i>Repository</i></a>
+            <a
+                class="bold"
+                href="https://hve4638.github.io/"
+                style="margin: 0px 8px 0px 8px; color: rgb(59, 48, 59);"
+            ><i>Blog</i></a>
+            <div class="flex"></div>
+            <div class="search">
+                <input type="text" placeholder="Search"/>
+                <span class="material-symbols-outlined">search</span>
+            </div>
+        </nav> 
+        <!--contents-->
+        <div class="row flex">
+            <!--left sidebar-->
+            <aside class="box column flex center" style="margin: 5px">
+                Sidebar
+            </aside>
+            <!--center contents-->
+            <main class="center undraggable" style="flex: 3;">
+                <div class="box center column" style="width:300px; height: 140px;">
+                    <div class="noflex" style="margin:4px 4px 16px 4px;">Center</div>
+                    <div class="flex column">
+                        <div class="row noflex" style="height: 30px; margin: 3px;">
+                            <input type="text" placeholder="input"></input>
+                            <div style="width: 6px;"></div>
+                            <button>Submit</button>
+                        </div>
+                        <div class="flex"></div>
+                        <div class="row noflex" style="height: 30px; margin: 3px;">
+                            <input type="checkbox"/>
+                            <div style="width: 5px;"></div>
+                            <div>CheckBox</div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- right sidebar -->
+            <aside class="column flex undraggable">
+                <div class="box column noflex" style="margin: 5px;">
+                    Undraggable
+                </div>
+                <div class="box column" style="margin: 5px;">
+                    <div class="bold" style="margin: 4px;">Radio</div>
+                    <div class="row">
+                        <input type="radio" name="radio" value="select1">Select 1</input>
+                    </div>
+                    <div class="row">
+                        <input type="radio" name="radio" value="select2">Select 2</input>
+                    </div>
+                </div>
+                <div class="box column flex" style="margin: 5px;">
+                    box with flex
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
